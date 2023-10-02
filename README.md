@@ -1,18 +1,16 @@
-# ![Tech Track - Course 2022-2023][banner]
+# ![Tech Track - Course 2023-2024][banner]
 
 > This respository contains everything you'll need to follow the 6-week Tech Track. 
 
 ## Synopsis
 
-The **Tech Track** is given at [**@CMDA**][cmda] in 2022 from
-October 24th until December 2nd.
+The **Tech Track** is given at [**@CMDA**][cmda] in 2023 from
+October 16th until December 1st.
 
 *   **Course**: Tech Track
 *   **Keywords**: data, information, interactivity, storytelling, visualization
-*   **Coordinators**: [Robert Spier][roberrrt-s-gh] ([**@roberrrt-s**][roberrrt-s-gh]) & [Vincent Vijn][vijnv-gh] ([**@vijnv**][vijnv-gh])
-*   **Lecturers**:
-    [Robert Spier][roberrrt-s-gh] ([**@roberrrt-s**][roberrrt-s-gh]),
-    [Vincent Vijn][vijnv-gh] ([**@vijnv**][vijnv-gh]), [Laura Benvenuti][laura-gh] ([**@LauraBenvenuti**][laura-gh])
+*   **Coordinators**: [Vincent Vijn][vijnv-gh] ([**@vijnv**][vijnv-gh]),  [Laura Benvenuti][laura-gh] ([**@LauraBenvenuti**][laura-gh])
+*   **Lecturers**: [Vincent Vijn][vijnv-gh] ([**@vijnv**][vijnv-gh]), [Laura Benvenuti][laura-gh] ([**@LauraBenvenuti**][laura-gh]),  [Danny de Vries][dandevri-gh] ([**@dandevri**][dandevri-gh])
 *   **Credit**: 9 ECTS
 *   **University**: [Amsterdam University of Applied Sciences][university]
 *   **Programme**: [Communication and Multimedia Design][cmda] (full time bachelor CROHO: `34092`)
