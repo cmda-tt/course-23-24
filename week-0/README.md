@@ -31,8 +31,7 @@ The following section contains a list of courses, books and articles to refresh 
 * [JavaScript notes and references (Wes Bos)](https://wesbos.com/javascript) *(Optional)*
 
 ### Git (and GitHub)
-
-* [🧑‍💼 Learn Git & Github (Codecademy)](https://www.codecademy.com/learn/learn-git) *(Core knowledge)*
+* [Introduction to Git and GitHub](https://www.coursera.org/learn/introduction-git-github/) *(Core knowledge)* (no payment required, select 'audit the course' when you sign up)
 * [Oh My Git!](https://ohmygit.org/) *(Optional)*
 
 ## What do I need to understand?
