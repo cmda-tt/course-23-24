@@ -15,7 +15,7 @@ This page includes the planning and schedule of the Tech Track 23/24.
   </thead>
   <tbody>
    	<tr>
-  		<td>9th-13st of October</td>
+  		<td>9th-13th of October</td>
   		<td>Monday to Friday</td>
   		<td>Prerequisites</td>
   		<td>Self-study</td>
@@ -144,7 +144,7 @@ This page includes the planning and schedule of the Tech Track 23/24.
   	<tr>
   		<td>15th of November</td>
   		<td>Wednesday</td>
-  		<td>Animation; documenting tech research</td>
+  		<td>Animation; documenting your tech research</td>
   		<td>Laura</td>
   		<!--td>Case analysis: Flitser</td-->
   		<!--td><a href="https://nos.nl/op3">Roos Verkade (NOSop3)</a></td-->
