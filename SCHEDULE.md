@@ -38,7 +38,7 @@ This page includes the planning and schedule of the Tech Track 23/24.
   	<tr>
   		<td>16th of October</td>
   		<td>Monday</td>
-  		<td>Welcome; workig with Objects</td>
+  		<td>Welcome; working with Objects</td>
   		<td>Laura & Vincent</td>
   	</tr>
   	<tr>
