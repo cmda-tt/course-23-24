@@ -150,10 +150,10 @@ This page includes the planning and schedule of the Tech Track 23/24.
   		<!--td><a href="https://nos.nl/op3">Roos Verkade (NOSop3)</a></td-->
   	</tr>
    	<tr>
-  		<td>18th of November</td>
+  		<td>17th of November</td>
   		<td>Friday</td>
   		<td>Interactive storytelling</td>
-  		<td>Robert</td>
+  		<td>Vincent</td>
   	</tr>
   </tbody>
  </table>
@@ -178,12 +178,12 @@ This page includes the planning and schedule of the Tech Track 23/24.
   	</tr>
   	<tr>
   		<td>21th of November</td>
-  		<td>Tuesday!!!</td>
+  		<td><strong>Tuesday!!!</strong></td>
   		<td>Temporal data and peer feedback</td>
   		<td>Laura</td>
   	</tr>
    	<tr>
-  		<td>23th of November</td>
+  		<td>24th of November</td>
   		<td>Friday</td>
   		<td>Deployment</td>
   		<td>Vincent</td>
@@ -216,7 +216,7 @@ This page includes the planning and schedule of the Tech Track 23/24.
   		<td>Laura</td>
   	</tr>
    	<tr>
-  		<td>2nd of December</td>
+  		<td>1st of December</td>
   		<td>Friday</td>
   		<td>Assessment</td>
   		<td>Laura & Vincent</td>
