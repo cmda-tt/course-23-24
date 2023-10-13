@@ -17,14 +17,14 @@ Your deadline is the _thursday_ of _week 6_ at _23:59_. All orals are on Friday
 
 ### Where?
 
-You hand in a `.zip` file (the one you can download from GitHub) on [DLO](https://dlo.mijnhva.nl/d2l/home/437179). This contains all your documentation (wiki) and work (HTML, CSS and JavaScript). In addition, the website you've created is live and accesible for your teachers without the need to download something or run a local server.
+You hand in a `.zip` file (the one you can download from GitHub) on [DLO](https://dlo.mijnhva.nl/d2l/home/536577). This contains all your documentation (wiki) and work (HTML, CSS and JavaScript). In addition, the website you've created is live and accesible for your teachers without the need to download something or run a local server.
 
 ## Requirements
 
 *General*
 
 * Your website is handed in on DLO, is live on the internet for teachers to access and your GitHub contains a wiki with your process report.
-* Your deliverables have been handed in before the agreed upon deadline, which is the day before your oral assessment at 23:59.
+* Your deliverables have been handed in before the agreed upon deadline, which is the day before your oral assessment at 13:00.
 * Your code is clean, structured and contains no errors or bugs.
 * You've made sketchnotes / a report regarding the guest lectures, or have documented an article you've previously checked with a teacher
 
@@ -57,4 +57,4 @@ You hand in a `.zip` file (the one you can download from GitHub) on [DLO](https:
 
 ## Grading
 
-You will be graded in an oral assessment on the final day of the Tech-Track. For the grading form used, please [visit the assignment on DLO](https://dlo.mijnhva.nl/d2l/home/437179).
+You will be graded in an oral assessment on the final day of the Tech-Track. For the grading form used, please [visit the assignment on DLO](https://dlo.mijnhva.nl/d2l/home/536577).

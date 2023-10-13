@@ -19,9 +19,7 @@ If you don't understand everything, don't worry, we'll discuss some more on Wedn
 
 ### Wednesday
 
-Today is our guest lecture by Wimer Hazenberg from [Clarify](https://clarify.nl/). Wimer is going to explain how they've build the website for the [Planbureau voor de Leefomgeving](https://www.pbl.nl/). His talk will also visit topics like accessibility and requirements for governmental websites.
-
-Before that, we'll do a quick rundown on axis and scales, the subjects of the Data Visualization course on Tuesday.
+We'll work on creating axis and converting data with scales in D3, the subjects of the Data Visualization course on Tuesday.
 
 ### Thursday
 
@@ -33,7 +31,7 @@ Please do note: We're using the D3 V7 version of the library, this means code us
 
 ### Friday
 
-You've been exploring D3 for a week now, it's time to start the final part of the saga, the interactive part of D3. We're going to touch on the `enter()`, `update()` and `exit()` cycle to update our graphs as new data, or filtered data comes along.
+You've been exploring D3 for a week now, it's time to start the final part of the saga, the interactive part of D3.
 
 ## Exercises
 

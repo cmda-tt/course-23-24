@@ -6,7 +6,7 @@
 
 ### Monday
 
-Vincent and Robert will both be giving workshops on geospatial and temporal data. Mainly how to handle GeoJSON and work with d3.time() or the `Date` object in JavaScript
+Vincent will give a workshop on working with geospatial data. We'll discuss several options that allow you to display data on interactive maps with D3 and other libraries.
 
 ### Tuesday
 
@@ -15,7 +15,7 @@ Continue with your work, don't forget: Your documentation is also being graded! 
 
 ### Wednesday
 
-Today is Q&A, there are individual talks with all students by the teacher to assess their process. Document this feedback in your Wiki.
+Today Laura will give a workshop on working with temporal data. Working with dates and times brings a whole sets of challenges that often come up during data visualisation projects.
 
 ### Thursday
 

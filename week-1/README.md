@@ -19,7 +19,7 @@ If you're unable to progress or encounter any hardships, be sure to ask your fel
 
 ### Wednesday
 
-Today, we'll discuss data visualizations for the web. We're introducing SVG (Scalable Vector Graphs) and start by visualizing the data we've collected on Monday.
+On Wednesday we'll look into writing better JavaScript - how do we maintain a good structure when our project grows?
 
 ### Thursday
 
@@ -31,9 +31,11 @@ In addition, we have the following courses that can help you improve your JavaSc
  - [freeCodeCamp | Functional Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#functional-programming)
  - [freeCodeCamp | Intermediate Algorithm Scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#intermediate-algorithm-scripting)
 
+
 ### Friday
 
-On Friday, the final lesson of this week is a deep-dive in JavaScript. We'll continue on some advanced topics, such as functional programming, mutabillity, seperation of concerns and key build-in functions JavaScript already has. We'll discuss the `.map()`, `.filter()` and `.reduce()` methods and start chaining functions together in our programs. Our endgoal here is call the API with our dummy data, clean it and display it in a browser, textually and visually using SVGs.
+Today, we'll discuss data visualizations for the web. We're introducing SVG (Scalable Vector Graphs) and start by visualizing the data we've collected on Monday.
+
 
 ## Exercises
 

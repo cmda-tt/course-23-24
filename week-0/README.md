@@ -32,6 +32,7 @@ The following section contains a list of courses, books and articles to refresh 
 
 ### Git (and GitHub)
 * [Introduction to Git and GitHub](https://www.coursera.org/learn/introduction-git-github/) *(Core knowledge)* (no payment required, select 'audit the course' when you sign up)
+* [GitHub Skills - Introduction](https://github.com/skills/introduction-to-github)
 * [Oh My Git!](https://ohmygit.org/) *(Optional)*
 
 ## What do I need to understand?

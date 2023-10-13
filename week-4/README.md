@@ -6,17 +6,18 @@
 
 ### Monday
 
-We're starting monday early. We'll be doing a quick recap of keyframes in CSS, the principles of transition, as well as visit some examples and sources, and finally: the introduction fo [GSAP](https://greensock.com/gsap/). to create your own animations. See, we're still applying some motion design towards what we've been doing.
+On Monday we'll discuss working asynchronously in JavaScript. When you work with external APIs, you often have to wait for a bit for data to come back. We don't want our application to freeze while this happens, so you'll learn patterns that allow you to handle this properly.
+
 
 ### Tuesday
-
-Tuesday is [all about snap.](https://twitter.com/argyleink/status/1556669441005330438). Today, we want you to watch all 49 minutes of Adam Argyle on scroll snap! [We have the slides available](https://oh-snap.netlify.app/#intro) as well, created with scroll snap as well. Scroll snap is a very useful way of navigating our users throughout our website. Be sure to write down interesting finds and document how you would use them on your website.
-
- - Watch: [Oh Snap! | Adam Argyle | CSS Day 2022](https://www.youtube.com/watch?v=34zcWFLCDIc)
+*As an exception, our workgroup is on Tuesday this week.* We'll work on how to document technical design choices (and research) in your design rationale.
 
 ### Wednesday
 
-Wednesday is all about parsing the information we took from our lessons on Monday and Tuesday, in addition, we're thrilled to have [Roos Verkade from NOSop3](https://nos.nl/op3) to talk about their project [Flitser](https://app.nos.nl/op3/flitsbezorging/#/).
+Wednesday is [all about snap.](https://twitter.com/argyleink/status/1556669441005330438). Today, we want you to watch all 49 minutes of Adam Argyle on scroll snap! [We have the slides available](https://oh-snap.netlify.app/#intro) as well, created with scroll snap as well. Scroll snap is a very useful way of navigating our users throughout our website. Be sure to write down interesting finds and document how you would use them on your website.
+
+ - Watch: [Oh Snap! | Adam Argyle | CSS Day 2022](https://www.youtube.com/watch?v=34zcWFLCDIc)
+
 
 ### Thursday
 
@@ -24,11 +25,11 @@ Continue working on your data visualization. Make sure you also think about how 
 
 ### Friday
 
-All out! Today we're going to highlight some amazing stuff other people made, we're going to dive into these visual (web) stories and dissect them. What can we learn from them? How can we apply the cool things they've done in our visuals?
+We'll be doing a quick recap of keyframes in CSS, the principles of transition, as well as visit some examples and sources, and finally: the introduction fo [GSAP](https://greensock.com/gsap/). to create your own animations. See, we're still applying some motion design towards what we've been doing.
 
 ## Exercises
 
-* [Tuesday: Watch Oh Snap!](https://www.youtube.com/watch?v=34zcWFLCDIc)
+* [Wednesday: Watch Oh Snap!](https://www.youtube.com/watch?v=34zcWFLCDIc)
 * [Thursday: Read Animate.css Best Practices]([animate.css](https://animate.style/#best-practices))
 
 ## Resources
