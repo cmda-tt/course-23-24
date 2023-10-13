@@ -151,14 +151,16 @@ docs and images are [CC-BY-4.0][].
 
 [laura-gh]: https://github.com/LauraBenvenuti
 
+[dandevri-gh]: https://github.com/dandevri
+
 [minor]: https://cmda.github.io/minor-everything-web/
 
 [home]: https://github.com/cmda-tt
 
-[github]: https://github.com/cmda-tt/course-22-23
+[github]: https://github.com/cmda-tt/course-23-24
 
-[teams]: https://teams.microsoft.com/l/team/19%3a8K1pERkqTDVyZDOWDwKziQPYR9tli69Z1hAmkWsgNJ41%40thread.tacv2/conversations?groupId=c0be8303-44e5-4326-a8b6-8dd6df6d75b4&tenantId=0907bb1e-21fc-476f-8843-02d09ceb59a7
+[teams]: https://teams.microsoft.com/l/channel/19%3A002e8ba348e44a908e23b932ce5a4cfb%40thread.tacv2/Tech%20Track?groupId=fadcfb62-2f29-4793-b5bf-796c90b1b183&tenantId=0907bb1e-21fc-476f-8843-02d09ceb59a7
 
-[Brightspace]: https://dlo.mijnhva.nl/d2l/home/437179
+[Brightspace]: https://dlo.mijnhva.nl/d2l/home/536577
 
-[lynda-portal]: https://lyndaportal.ict.hva.nl
+[lynda-portal]: https://www.linkedin.com/learning/login
