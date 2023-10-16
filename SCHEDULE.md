@@ -56,6 +56,9 @@ This page includes the planning and schedule of the Tech Track 23/24.
   </tbody>
 </table>
 
+> [!NOTE]
+> In between week 1 and 2 we have our fall recess (21-29 Oct)
+
 ## Week 2
 
 <table style="width:100%">
