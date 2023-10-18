@@ -147,8 +147,8 @@ This page includes the planning and schedule of the Tech Track 23/24.
   	<tr>
   		<td>15th of November</td>
   		<td>Wednesday</td>
-  		<td>Animation; documenting your tech research</td>
-  		<td>Laura</td>
+  		<!--td>Animation; documenting your tech research</td>
+  		<td>Laura</td-->
   		<td>Case study: Stormvloed</td>
   		<td>Petra Jeurissen, <a href="[https://nos.nl/op3](https://waterinfo.rws.nl/#/publiek/golfhoogte)">Rijkswaterstaat</a></td-->
   	</tr>
