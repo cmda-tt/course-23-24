@@ -84,8 +84,8 @@ This page includes the planning and schedule of the Tech Track 23/24.
   		<td>Laura</td>
   	</tr>
    	<tr>
-  		<td>3rd of November</td>
-  		<td>Friday</td>
+  		<td>2rd of November</td>
+  		<td>Thursday</td>
   		<td>Sketching ideas</td>
   		<td>Vincent</td>
   	</tr>
@@ -147,10 +147,10 @@ This page includes the planning and schedule of the Tech Track 23/24.
   	<tr>
   		<td>15th of November</td>
   		<td>Wednesday</td>
-  		<td>Animation; documenting your tech research</td>
-  		<td>Laura</td>
-  		<!--td>Case analysis: Flitser</td-->
-  		<!--td><a href="https://nos.nl/op3">Roos Verkade (NOSop3)</a></td-->
+  		<!--td>Animation; documenting your tech research</td-->
+  		<!--td>Laura</td-->
+  		<td>Case study: Stormvloed</td>
+  		<td>Petra Jeurissen, <a href="https://waterinfo.rws.nl/#/publiek/golfhoogte">Rijkswaterstaat</a></td-->
   	</tr>
    	<tr>
   		<td>17th of November</td>
