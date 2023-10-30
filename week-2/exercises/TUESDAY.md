@@ -11,7 +11,7 @@
  - Explore existing datasets and note your findings. What are "beautiful" datasets, did some of the interaction surprise you? What did you learn from it, how did it affect you? Is there something from this dataset that you wish to incorporate yourself?
 
 In addition, read the following article by [Curran Kelleher](https://twitter.com/currankelleher):
- - [Finding Visualizations](https://datavis.tech/datavis-2020-episode-3-finding-visualizations/)
+ - [Finding Visualizations](https://datavis.tech/datavis-2020-episode-3-finding-visualizations/) Website down? [Use this backup link](https://web.archive.org/web/20230329100308/https://datavis.tech/datavis-2020-episode-3-finding-visualizations/).
 
 ## Deliverables
 
