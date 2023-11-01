@@ -121,7 +121,7 @@ This page includes the planning and schedule of the Tech Track 23/24.
   		<td>10th of November</td>
   		<td>Friday</td>
   		<td>Advanced & Interactive D3</td>
-  		<td>Vincent, <a href="https://github.com/roberrrt-s"> Mystery Guest</a>a></td>
+  		<td>Vincent, <a href="https://github.com/roberrrt-s"> Mystery Guest</a></td>
   	</tr>
   </tbody>
  </table>
@@ -150,7 +150,7 @@ This page includes the planning and schedule of the Tech Track 23/24.
   		<!--td>Animation; documenting your tech research</td-->
   		<!--td>Laura</td-->
   		<td>Case study: Stormvloed</td>
-  		<td>Petra Jeurissen, <a href="https://waterinfo.rws.nl/#/publiek/golfhoogte">Rijkswaterstaat</a>, Laura</td-->
+  		<td>Petra Jeurissen (<a href="https://waterinfo.rws.nl/#/publiek/golfhoogte">Rijkswaterstaat</a>), Laura</td-->
   	</tr>
    	<tr>
   		<td>17th of November</td>
@@ -189,7 +189,7 @@ This page includes the planning and schedule of the Tech Track 23/24.
   		<td>24th of November</td>
   		<td>Friday</td>
   		<td>Deployment</td>
-  		<td>Daniël Staal, <a href="https://climateadaptationservices.com/expertises/we-maken-klimaatvisualisaties/" > CAS </a>,Vincent</td>
+  		<td>Daniël Staal (<a href="https://climateadaptationservices.com/expertises/we-maken-klimaatvisualisaties/" > CAS </a>),Vincent</td>
   	</tr>
   </tbody>
  </table>
