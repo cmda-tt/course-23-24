@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pasta Promises</title>
+</head>
+
+<body>
+  <script>
+    /* Adapted from: https://codepen.io/Razpudding/pen/Keygge?editors=1011 */
+
+    // The problem with this approach is we don't know when prepare pasta and the other promise chain are finished
+
+    cookMeal()
+    function cookMeal() {
+      gatherIngredients()
+        .then(data => preparePasta(data))
+        .then(cutIngredients) //shorthand, ingredients are actually passed as a param
+        .then(vegetables => bakeVegetables(vegetables))   //Explicit instead of shorthand
+      //.catch((err) => console.log(err))
+    }
+
+    function preparePasta(ingredients) {
+      console.log("Preparing pasta ")
+      if (Array.isArray(ingredients)) {
+        boilWater(ingredients)
+          .then(cookPasta)
+
+        return new Promise((resolve, reject) => {
+          resolve(ingredients)
+        })
+      }
+      else {
+        console.log("You didnt give me any ingredients!")
+      }
+    }
+
+    function gatherIngredients() {
+      console.log("Gathering ingredients")
+      let ingredients = []
+      return new Promise((resolve, reject) => {
+        setTimeout(function () {
+          ingredients.push(
+            {
+              name: "tomatoes",
+              cut: false,
+              state: "raw"
+            },
+            {
+              name: "garlic",
+              cut: false,
+              state: "raw"
+            },
+            {
+              name: "pasta",
+              state: "raw",
+              strained: false
+            },
+            {
+              name: "water",
+              state: "uncooked",
+            })
+          resolve(ingredients)
+        }, 3000)
+      })
+    }
+
+    function cutIngredients(items) {
+      console.log("Cutting Ingredients")
+      let vegetables = []
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          for (ingredient of items) {
+            if ("cut" in ingredient) {
+              console.log("cutting ", ingredient)
+              ingredient.cut = true
+              vegetables.push(ingredient)
+            }
+          }
+          //console.log(items)
+          resolve(vegetables)
+        }, items.length * 1000)
+      })
+    }
+
+    function bakeVegetables(veggies) {
+      console.log("Baking Veggies")
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          for (veggie of veggies) {
+            console.log("baking ", veggie)
+            veggie.state = "baked"
+          }
+          //console.log(veggies)
+          resolve(veggies)
+        }, 5000)
+      })
+    }
+
+    function boilWater(ingredients) {
+      console.log("Boiling Water")
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          ingredients.find(item => item.name == "water")
+            .state = "cooked"
+          resolve(ingredients)
+        }, 5000)
+      })
+    }
+
+    function cookPasta(ingredients) {
+      return new Promise((resolve, reject) => {
+        if (ingredients.find(item => item.name == "water").state == "cooked") {
+          setTimeout(() => {
+            ingredients.find(item => item.name == "pasta")
+              .state = "cooked"
+            resolve()
+          }, 5000)
+        } else {
+          console.log("Water not cooked yet")
+          reject()
+        }
+        console.log("cooking Pasta")
+
+      })
+
+    }
+
+  </script>
+</body>
+
+</html>

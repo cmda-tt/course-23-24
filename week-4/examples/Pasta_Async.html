@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pasta Async</title>
+</head>
+
+<body>
+
+  <script>
+
+    /* Adapted from; https://codepen.io/Razpudding/pen/RJZeJO */
+
+    cookMeal()
+
+    async function cookMeal() {
+      //First get all the ingredients needed
+      try {
+        let ingredients = await gatherIngredients()
+        //Then prepare the pasta and cut the ingredients SIMULTANEOUSLY
+        let cookedPasta = boilWater(ingredients)
+          .then(cookPasta)
+
+        let bakedVegggies = cutIngredients(ingredients)
+          .then(vegetables => bakeVegetables(vegetables))   //Explicit instead of shorthand
+
+        //Wait for both the pasta to be cooked and the veggies to be baked
+        let pasta = await cookedPasta
+        console.log("Pasta is cooked ", pasta)
+        let veggies = await bakedVegggies
+        console.log("Veggies are baked", veggies)
+        let meal = await mixTogether([pasta, veggies])
+      }
+      catch (err) {
+        console.error(err)
+      }
+      console.log("dinner's ready! 🍝")
+    }
+
+    function gatherIngredients() {
+      console.log("Gathering ingredients")
+      let ingredients = []
+      return new Promise((resolve, reject) => {
+        setTimeout(function () {
+          ingredients.push(
+            {
+              name: "tomatoes",
+              cut: false,
+              state: "raw"
+            },
+            {
+              name: "garlic",
+              cut: false,
+              state: "raw"
+            },
+            {
+              name: "pasta",
+              state: "raw",
+              strained: false
+            },
+            {
+              name: "water",
+              state: "uncooked"
+            })
+          resolve(ingredients)
+        }, 3000)
+      })
+    }
+
+    function cutIngredients(items) {
+      console.log("Cutting Ingredients")
+      if (!items) {
+        throw new Error("no items provided for cutting!")
+      }
+      let vegetables = []
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          for (ingredient of items) {
+            if ("cut" in ingredient) {
+              console.log("cutting ", ingredient)
+              ingredient.cut = true
+              vegetables.push(ingredient)
+            }
+          }
+          //console.log(items)
+          resolve(vegetables)
+        }, 3000)
+      })
+    }
+
+    function bakeVegetables(veggies) {
+      console.log("Baking Veggies")
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          for (veggie of veggies) {
+            console.log("baking ", veggie)
+            veggie.state = "baked"
+          }
+          //console.log(veggies)
+          resolve(veggies)
+        }, 5000)
+      })
+    }
+
+    function boilWater(ingredients) {
+      console.log("Boiling Water")
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          ingredients.find(item => item.name == "water")
+            .state = "cooked"
+          resolve(ingredients)
+        }, 5000)
+      })
+    }
+
+    function cookPasta(ingredients) {
+      console.log("cooking Pasta")
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          let pasta = ingredients.find(item => item.name == "pasta")
+          pasta.state = "cooked"
+          resolve(pasta)
+        }, 5000)
+      })
+    }
+
+    function mixTogether(stuff) {
+      console.log("Mixing stuff")
+      return stuff.join()
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script type="module"></script>
+  <title>D3 Json</title>
+</head>
+
+<body>
+  <script>
+    /* Adapter from; https://vizhub.com/Razpudding/998f8f50a1484e36a934815ab532e193?edit=files&file=index.js&mode=mini */
+
+    //We need this proxy becuse our resource service hasn't allows cross origin requests explicitly
+    const proxyUrl = 'https://cors-anywhere.herokuapp.com/'
+    const overviewUrl = 'https://npropendata.rdw.nl/parkingdata/v2/'
+    const dataSource1 = 'https://npropendata.rdw.nl//parkingdata/v2/static/1208d277-9367-4c5b-8d90-611afaf92086'
+    const dataSource2 = 'https://npropendata.rdw.nl//parkingdata/v2/static/fc749565-1fe9-42f0-920a-3b4e718d62f9'
+
+    const parkingLocationsOverview = d3.json(proxyUrl + overviewUrl)
+      .then(locationsOverview => {
+        console.log("locationsoverview", locationsOverview)
+        const allParkingLocations = locationsOverview.ParkingFacilities
+        console.log(allParkingLocations)
+        //Let's continue with just 10 items
+        const selection = allParkingLocations.slice(0, 10)
+        console.log("firstTen", selection)
+        const firstTenIDs = selection.map(parkingLocation => parkingLocation.identifier)
+      })
+
+    //Let's get the first bit of data
+    const data1 = d3.json(proxyUrl + dataSource1)
+      .then(data => {
+        //If we don't return the data, the promise will resolve to undefined!
+        return data
+      })
+
+    //Let's get the second bit of data
+    const data2 = d3.json(proxyUrl + dataSource2)
+      .then(data => {
+        return data
+      })
+
+    //How can we combine this data?
+    //We first need to wait for both pieces
+    Promise.all([data1, data2])
+      .then(results => {
+        console.log(results)
+        //d3 ga visualiseren
+      })
+  </script>
+</body>
+
+</html>
