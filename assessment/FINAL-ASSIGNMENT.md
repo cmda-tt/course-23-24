@@ -13,7 +13,7 @@ The Tech-Track final assessment is an *individual*, *oral* test in which you dem
 
 ### When?
 
-Your deadline is ~~the _thursday_ of _week 6_ at _23:59_~~~~ announced on MS Teams and visible on DLO near the assignment.
+Your deadline is ~~the _thursday_ of _week 6_ at _23:59_~~ announced on MS Teams and visible on DLO near the assignment.
 
 ### Where?
 
