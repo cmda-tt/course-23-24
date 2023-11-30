@@ -17,7 +17,7 @@ Your deadline is ~~the _thursday_ of _week 6_ at _23:59_~~ announced on MS Teams
 
 ### Where?
 
-You hand in a `.zip` file (the one you can download from GitHub) on DLO. You also have to export your wiki (see instructions on DLO) and upload that as well. In addition, the website you've created is live and accesible for your teachers without the need to download something or run a local server. Add the URL to the live version to the 'about' section of your repository (Vercel, Netlify and GitHub pages will do this automatically. If you deploy your code elsewhere you'll have to add the URL yourself).
+You hand in a `.zip` file (the one you can download from GitHub) on DLO. You also have to export your wiki (see instructions on DLO or use the [Wiki Exporter](https://cmda.eu/wiki-exporter/) and upload that as well. In addition, the website you've created is live and accesible for your teachers without the need to download something or run a local server. Add the URL to the live version to the 'about' section of your repository (Vercel, Netlify and GitHub pages will do this automatically. If you deploy your code elsewhere you'll have to add the URL yourself).
 
 ## Requirements
 
